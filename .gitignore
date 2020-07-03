@@ -1,16 +1,12 @@
-# Eclipse files
-.settings/*
-.project
-.buildpath
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
 
-# doxygen files
-doc/html
-doc/latex
-doc/doxygen_sqlite3.db
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
 
-# composer files
-vendor/
-
-# other build files
-build/*
-*.phar
